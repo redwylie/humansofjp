@@ -48,7 +48,7 @@ echo $template->render(array(
     'view' => 'Full',
     'story' => $story,
     'partOfSet' => $partOfSet,
-    'title' => 'Connected Stories - '.$category,
+    'title' => 'Humans of JP',
     'description' => 'Headshots, Portraits, Flowers'
   ));
 
