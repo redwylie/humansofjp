@@ -9,21 +9,6 @@
    	<?php include_once("analyticstracking.php") ?>
    	{% include 'common/nav.html'%}
 
-   	<nav class="navbar navbar-inverse navbar-breadcrumbs navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-             	<ol class="breadcrumb">
-			  		<!-- <li><a href="index.php">Portfolio</a></li> -->
-			  		<!-- <li><a href="{{urlCategory}}">{{category}}</a></li> -->
-			  		{% if urlSet != null %}
-			  			<li><a href="{{urlSet}}">{{set}}</a></li>
-			  		{% endif %}
-					<li class="active">{{shortTitle}}</a></li>
-				</ol> 
-            </div>
-        </div><!-- ./container -->
-    </nav>
-
    	<div class="container hide">
    		<br/>
 		<div class="col-xs-10 col-xs-offset-1">
@@ -49,9 +34,12 @@
 				{% if photo.youtube == null %} null
 					<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
 				{% else %}
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/{{photo.youtube}}" frameborder="0" allowfullscreen></iframe>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{photo.youtube}}"></iframe>
+					</div>
+					
 				{% endif %}
-				<h5><!-- <a href="{{urlSet}}">{{set}}</a> : --> {{shortTitle}} - {{photo.caption}}</h5>
+				<h5><!-- <a href="{{urlSet}}">{{set}}</a> : --> {{photo.caption}}</h5>
 			</div><!-- .col -->
 			<a href="{{urlNext}}" class="col-nav hidden-xs">
 				<div class="col-xs-1">

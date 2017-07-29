@@ -9,8 +9,8 @@
 	{% include 'common/nav.html' with {'foo': 'bar'} %}
 
 	    <div class="jumbotron jumbotron-sets">
-		<div class="container">
-			<h1>02130</h1>
+		<div class="container text-center">
+			<h1>Jamaica Plain MA</h1>
  		</div><!-- .container -->
 	</div><!-- .jumbotron -->
 
@@ -22,14 +22,15 @@
 
 				<div class="col-sm-4 col-card">
 					{% if image.story == null %}
-						<a href="photo.php?photo={{image._id}}" class="link">
+						<a href="photo.php?photo={{image._id}}" class="link  category-link">
 					{% else %}
-						<a href="story.php?set={{image.set}}&category={{image.category}}"  class="link category-link">
+						<a href="story.php?set={{image.set}}&category={{image.category}}" class="link category-link">
 					{% endif %}
-						<div class="card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
-							<div class="inner">{{ image.title }}</div>
+						<div class="card" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')" >
+							<div class="inner">
+								<h1>{{ image.title }}</h1>
+							</div>
 						</div><!-- .card -->
-
 					</a>
 				
 				</div><!-- .col -->
