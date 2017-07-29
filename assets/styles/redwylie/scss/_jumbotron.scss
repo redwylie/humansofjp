@@ -1,0 +1,68 @@
+.jumbotron.jumbotron-sets {
+    //background-image: url('../../../../assets/images/jumbotron/sunflower.jpg');
+    background-image: url('../../../../photos/2016/11-November/2016-11-01/wave_1/photo.jpg');
+    background-size: cover;
+    background-position: top;
+    background-color: #222;
+    margin-bottom: 25px;
+    
+    padding-top: 0px;
+    padding-bottom: 20px;
+
+    h1 {
+        color: $white;
+        font-size: 90px;
+        font-weight: 200;
+    }
+
+     small p {
+        color: $white;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: $screen-xs-max) {
+   .jumbotron.jumbotron-categories {
+        display: none;
+    }
+
+    .jumbotron.jumbotron-session,
+    .jumbotron.jumbotron-sets {
+
+        h1 {
+            font-size: 25px;
+        }
+
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .jumbotron.jumbotron-categories,
+    .jumbotron.jumbotron-sets {
+        h1 {
+            font-size: 75px;
+        }
+    }
+
+    .jumbotron.jumbotron-session {
+
+        padding-top: 20px;
+
+        h1 {
+            font-size: 65px;
+        }
+    }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .jumbotron.jumbotron-categories,
+    .jumbotron.jumbotron-sets {
+
+        h1 {
+            font-size: 90px;
+        }
+    }
+}

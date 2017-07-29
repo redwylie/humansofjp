@@ -1,0 +1,79 @@
+<!doctype html>
+
+<head> 
+   {% include 'common/meta.html' %}
+   {% include 'common/styles.html' %}
+</head>
+
+<body class="page-photo">
+   	<?php include_once("analyticstracking.php") ?>
+   	{% include 'common/nav.html'%}
+
+   	<nav class="navbar navbar-inverse navbar-breadcrumbs navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+             	<ol class="breadcrumb">
+			  		<!-- <li><a href="index.php">Portfolio</a></li> -->
+			  		<!-- <li><a href="{{urlCategory}}">{{category}}</a></li> -->
+			  		{% if urlSet != null %}
+			  			<li><a href="{{urlSet}}">{{set}}</a></li>
+			  		{% endif %}
+					<li class="active">{{shortTitle}}</a></li>
+				</ol> 
+            </div>
+        </div><!-- ./container -->
+    </nav>
+
+   	<div class="container hide">
+   		<br/>
+		<div class="col-xs-10 col-xs-offset-1">
+			<ol id="breadcrumb">
+			<!-- <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Portfolio</a></li>
+			<li><a href="{{urlCategory}}">{{category}}</a></li> -->
+			{% if urlSet != null %}
+	  			<li><a href="{{urlSet}}">{{set}}</a></li>
+	  		{% endif %}
+			<li><a href="#">{{shortTitle}}</a></li>
+			</ol>
+		</div><!-- .col -->
+	</div><!-- .container -->
+
+	<div class="container-fluid">
+		<div class="row row-photo">
+			<a href="{{urlPrevious}}" class="col-nav hidden-xs">
+				<div class="col-xs-1">
+					<button class="btn btn-link btn-nav" href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+				</div><!-- .col -->
+			</a>
+			<div class="col-xs-12 col-sm-10 col-photo">
+				{% if photo.youtube == null %} null
+					<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
+				{% else %}
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/{{photo.youtube}}" frameborder="0" allowfullscreen></iframe>
+				{% endif %}
+				<h5><!-- <a href="{{urlSet}}">{{set}}</a> : --> {{shortTitle}} - {{photo.caption}}</h5>
+			</div><!-- .col -->
+			<a href="{{urlNext}}" class="col-nav hidden-xs">
+				<div class="col-xs-1">
+					<button class="btn btn-link btn-nav" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+				</div><!-- .col -->
+			</a>
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	<div class="container-fluid visible-xs">
+		<div class="row">
+			<div class="col-xs-6 text-center">
+				<a class="btn btn-link btn-nav" href="{{urlPrevious}}"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+			</div><!-- .col -->
+			<div class="col-xs-6 text-center">
+					<a class="btn btn-link btn-nav" href="{{urlNext}}"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+				</div><!-- .col -->
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+	
+</body>
+</html>

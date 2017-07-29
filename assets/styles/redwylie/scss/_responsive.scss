@@ -1,0 +1,21 @@
+@media (max-width: $screen-xs-max) {
+   .container-fluid {
+   		padding-left: 0px;
+   		padding-right: 0px;
+   }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .container-fluid {
+   		padding-left: 5px;
+   		padding-right: 5px;
+   }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+
+}
+
+@media (min-width: $screen-lg-min) {
+    
+}

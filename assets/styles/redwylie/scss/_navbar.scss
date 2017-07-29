@@ -1,0 +1,65 @@
+.navbar-brand img {
+    max-height: 105px;
+}
+
+.navbar {
+  font-weight: 300;
+}
+
+
+
+@media (max-width: $screen-xs-max) {
+   	.navbar {
+   		min-height: 75px;
+   	}
+
+  .navbar-brand {
+    height: 75px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+
+  .nav > li  {
+    display: inline-block;
+  }
+
+   .navbar-brand img {
+	  max-height: 65px;
+	}
+	
+	.navbar-toggle {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .navbar-nav {
+    padding-top: 45px;
+  }
+    
+.page-photo,
+.page-category,
+.page-set {
+    .navbar-brand img {
+        max-height: 45px;
+    }
+
+    .navbar {
+        height: 75px;
+        min-height: 75px;
+
+        .navbar-nav {
+            padding-top: 15px;
+        }
+    }
+
+    .navbar-brand {
+       height: 75px;
+    }
+
+}
+
+}

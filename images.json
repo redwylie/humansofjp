@@ -1,0 +1,68 @@
+{"images": [
+
+{"_id": "street-1"
+    , "folder": "photos/2017/06-June/2017-06-22/street-1"
+    , "title": "June 22, 2017"
+    , "caption":"The first photo I made of the Gentleman, before I knew it would be a series."
+    , "year": "2017"
+    , "category": "The Gentleman"
+    , "viewOnCategories": true
+    , "set":"The Gentleman"
+    , "partOfSet": true
+    , "setCount": "8"
+    , "story" : true
+    , "storyIntro" : "<p>Leaving the studio with my camera, the controlled space where I have been working almost exclusively for the past year, my daily commute becoming a vehicle for exploration - encountering a stranger.</p><p>The invisible strangers that we pass everyday, for years, decades, as our well worn route takes us past the same places, at the same time, to the same destination, every day.  Seldom paying attention, hardly noticing the changes, the faces, the life.  The things we turn our eyes away from. What would happen if you looked at one place every day, paused for just a few moments. </p>"
+},
+
+{"_id": "street-2"
+    , "folder": "photos/2017/06-June/2017-06-26/street-1"
+    , "title": "June 26, 2017"
+    , "caption":"I didn't intend to make this a series when I first photographed this gentleman last week. I thought perhaps he was taking a rest on the benches outside city hall. He was there again on Monday."
+    , "year": "2017"
+    , "category": "The Gentleman"
+    , "viewOnCategories": false
+    , "set":"The Gentleman"
+    , "partOfSet": true
+},
+
+{"_id": "molly"
+    , "folder": "photos/2014/08-August/2014-08-08/molly"
+    , "youtube": "yattBa4YiLE"
+    , "title": "Molly"
+    , "caption":"Molly is leaving JP soon, and spending as much time with her friends as possible before leaving."
+    , "year": "2014"
+    , "category": "Humans of JP"
+    , "viewOnCategories": true
+},
+
+{"_id": "joanne"
+    , "folder": "photos/2014/08-August/2014-08-08/joanne"
+    , "youtube": "uZycNR0q6Dg"
+    , "title": "Joanne"
+    , "caption":"Joanne shares about her fearless 5 year old."
+    , "year": "2014"
+    , "category": "Humans of JP"
+    , "viewOnCategories": true
+},
+
+{"_id": "amanda"
+    , "folder": "photos/2014/07-July/2014-07-30/amanda"
+    , "youtube": "lqMbrkLgEn8"
+    , "title": "Amanda"
+    , "caption":"Amanda, at the end of a tough day, was still able to share her infectious laugh."
+    , "year": "2014"
+    , "category": "Humans of JP"
+    , "viewOnCategories": true
+},
+
+{"_id": "alana"
+    , "folder": "photos/2014/05-May/2014-05-31/alana"
+    , "youtube": "e5rxP18ZaEY?list=PLDQmHTBN9EL7qCfDnI5D2KnF-63ScU9ND"
+    , "title": "Alana"
+    , "caption":"Alana shares about selling her car in favor of a bike and spending the summer learning to farm"
+    , "year": "2014"
+    , "category": "Humans of JP"
+    , "viewOnCategories": true
+}
+
+]}

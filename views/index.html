@@ -1,0 +1,38 @@
+<!doctype html>
+
+<head>
+	{% include 'common/meta.html' %}
+	{% include 'common/styles.html' %}
+</head>
+<body>
+
+	{% include 'common/nav.html' with {'foo': 'bar'} %}
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Me fotos :)</h1>
+ 		</div><!-- .container -->
+	</div><!-- .jumbotron -->
+
+	<div class="container-fluid">
+
+		<div class="container-fluid">
+			<div class="row-fluid">
+
+				{% for image in images %}
+					{% if image.viewOnHome %}
+						{% include 'common/card.html' with {'view':'photo'} %}
+					{% endif %}
+				{% endfor %}
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+
+	</div><!-- .container -->
+
+	{% include 'common/footer.html' %}
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+
+</body>
+</html>

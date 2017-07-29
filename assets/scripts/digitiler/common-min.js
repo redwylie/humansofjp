@@ -1,0 +1,1 @@
+function setProps(){var n=(new Date).getFullYear();$("#year").text(n),$(".hidden-info").hide(),$(".show-info").click(function(){$(".hidden-info").toggle()});var o=$(window).width();o-=30,$("#openseadragon").css({width:o});var e=$(window).height();e-=80,$("#openseadragon").css({height:e})}function goBack(){window.history.back()}$("document").ready(function(){setProps()});

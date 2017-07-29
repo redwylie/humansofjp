@@ -1,0 +1,80 @@
+<!doctype html>
+
+<head>
+	{% include 'common/meta.html' %}
+	{% include 'common/styles.html' %}
+</head>
+<body class="page-set">
+	<?php include_once("analyticstracking.php") ?>
+	{% include 'common/nav.html' with {'foo': 'bar'} %}
+
+	<!-- <nav class="navbar navbar-inverse navbar-breadcrumbs navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+             	<ol class="breadcrumb">
+			  		<li><a href="index.php">Home</a></li>
+			  		<li><a href="category.php?category={{categoryTitle}}">{{categoryTitle}}</a></li>
+			  		<li class="active">{{setTitle}}</li>
+				</ol> 
+            </div>
+        </div>
+    </nav> -->
+
+    <div class="jumbotron jumbotron-sets">
+		<div class="container">
+			<h1>{{setTitle}}</h1>
+			{% for image in images %}
+				{% if image.storyIntro != null %}
+					<small>{{image.storyIntro|raw}}</small>
+				{% endif %}
+			{% endfor %}
+ 		</div><!-- .container -->
+	</div><!-- .jumbotron -->
+	{% for image in images %}
+	{% if image.hide != true %}
+	
+		<div class="section">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-sm-10 col-sm-offset-1">
+
+						{% if image.youtube == null %}
+							<img src="{{image.folder}}/photo.jpg" class="img-responsive bordered" />
+						{% else %}
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{image.youtube}}" frameborder="0" allowfullscreen></iframe>
+						{% endif %}
+						<br/>
+						{% if hideSetTitles == false %}
+							<h5>{{image.title}}</h5>
+						{% endif %}
+						{{image.caption|raw}}
+
+					</div><!-- .card -->
+				
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+
+		{% if image.copy != null %}
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1">
+						{{image.copy|raw}}
+						</div><!-- .col -->
+					</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+		{% endif %}
+
+	{% endif %}
+	{% endfor %}
+
+
+	{% include 'common/footer.html' %}
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+
+<head>
+	{% include 'common/meta.html' %}
+	{% include 'common/styles.html' %}
+</head>
+<body class="page-category">
+	<?php include_once("analyticstracking.php") ?>
+	{% include 'common/nav.html' with {'foo': 'bar'} %}
+
+	    <div class="jumbotron jumbotron-sets">
+		<div class="container">
+			<h1>02130</h1>
+ 		</div><!-- .container -->
+	</div><!-- .jumbotron -->
+
+	<div class="container">
+
+		<div class="row">
+
+			{% for image in images %}
+
+				<div class="col-sm-4 col-card">
+					{% if image.story == null %}
+						<a href="photo.php?photo={{image._id}}" class="link">
+					{% else %}
+						<a href="story.php?set={{image.set}}&category={{image.category}}"  class="link category-link">
+					{% endif %}
+						<div class="card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+							<div class="inner">{{ image.title }}</div>
+						</div><!-- .card -->
+
+					</a>
+				
+				</div><!-- .col -->
+			
+			{% endfor %}
+			
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	<br/>
+
+	{% include 'common/footer.html' %}
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+{% if view == 'photo' %}
+<div class="col-sm-4 col-md-4 col-card">
+{% else %}
+<div class="col-sm-4 col-md-4 col-card">
+{% endif %}
+
+{% if categoryTitle == 'Headshots' %}
+{% endif %}
+
+	{% if view == 'photo' %}
+		<a href="photo.php?photo={{image._id}}" class="link">
+	{% elseif view == 'sets' %}
+		{% if category.story == null %}
+			<a href="photo.php?photo={{image._id}}"  class="link category-link">
+		{% else %}
+			<a href="story.php?set={{category.set}}&category={{category.category}}"  class="link category-link">
+		{% endif %}
+	{% else %}
+		<a href="category.php?category={{category.category}}"  class="link category-link">
+	{% endif %}
+
+			{% if view == 'photo' %}
+				<div class="card {% if categoryTitle == 'Portraits' %}card-portrait{% endif %}" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+			{% elseif view == 'sets' %}
+				<div class="card" data-content="{{image.set}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+			{% else %}
+				<div class="card" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+			{% endif %}
+			
+				<div class="inner">
+					{% if view == 'photo' %}
+						<h1>{{ image.title }}</h1>
+						<!-- <small>{{image.type}}</small> -->
+					{% elseif view == 'sets' %}
+						<h1>{{ category.set }}</h1>
+					{% else %}
+						<h1>{{ category.category }}</h1>
+					{% endif %}
+				</div>
+			</div><!-- .card -->
+		</a>
+</div><!-- .col -->

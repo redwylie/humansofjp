@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"humansofjp.sublime-project",
+				"composer.json",
+				"composer.lock",
+				"installer",
+				".gitignore"
+			],
+			"folder_exclude_patterns":
+			[
+				"vendor",
+				"bin"
+			],
+			"path": "."
+		}
+	]
+}

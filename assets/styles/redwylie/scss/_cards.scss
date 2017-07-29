@@ -1,0 +1,174 @@
+a.link:hover {
+    text-decoration: none;
+}
+
+
+// THIS KEEPS THE HOVER DISPLAY HIDDEN FROM MOBILE DEVICES
+@media (min-width: $screen-sm-min) {
+    
+    .card:hover {
+        border: 2px solid $blue-one-highlight;
+
+        .inner {
+            display: block;
+        }
+
+    }
+
+    .card:after {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background: rgba(0,0,0,.5);
+        -moz-transition: all .4s;
+        -webkit-transition: all .4s;
+        transition: all .4s;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .card:hover:after {
+        opacity:1;
+    }
+        
+}
+
+.card {
+	height: 288px;
+	width: 100%;
+	background-size: cover;
+	cursor: pointer;
+	background-position: center;
+	background-color: $gray-one-shadow;
+	margin-bottom: 0px;
+	border: 2px solid $white;
+    text-align: center;
+    color: $white;
+    position: relative;
+
+	h1 {
+		font-size: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        line-height: 18px;
+        z-index: 1;
+        position: relative;
+        font-weight: 200;
+	}
+
+    small {
+        z-index: 1;
+        position: relative;
+    }
+
+    .inner {
+        margin-top: 120px;
+        display: none;
+    }
+
+}
+
+
+//CARD HEIGHTS ON THE HOME PAGE
+.category-link {
+
+    .card {
+
+        .inner {
+            height: 50px;
+            margin-top: 180px;
+            width: 100%;
+            display: block;
+            background: rgba(0,0,0,.3);
+
+            h1 {
+                position: relative;
+                top: 15px;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+   
+    .card-portrait {
+        height: 400px;
+    }
+
+     .card-portrait .inner {
+        margin-top: 200px;
+    }
+
+    .category-link {
+        .card .inner {
+            margin-top: 235px;
+        }
+    }
+
+    .card {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    
+    .card {
+        height: 176px;
+
+        .inner {
+            margin-top: 80px;
+        }
+    }
+
+    .card-portrait {
+        height: 276px;
+    }
+
+    .card-portrait .inner {
+        margin-top: 120px;
+    }
+
+    .category-link {
+        .card .inner {
+            margin-top: 122px;
+        }
+    }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+
+    .card {
+        height: 234px;
+    }
+
+    .card-portrait {
+        height: 376px;
+    }
+
+    .card-portrait .inner {
+        margin-top: 180px;
+    }
+}
+
+@media (min-width: $screen-lg-min) {
+
+    .card-portrait {
+        height: 460px;
+    }
+
+    .card-portrait .inner {
+        margin-top: 220px;
+    }
+
+    .category-link {
+        .card .inner {
+            margin-top: 235px;
+        }
+    }
+
+}
