@@ -1,27 +1,75 @@
 {"images": [
 
-{"_id": "street-1"
-    , "folder": "photos/2017/06-June/2017-06-22/street-1"
-    , "title": "June 22, 2017"
-    , "caption":"The first photo I made of the Gentleman, before I knew it would be a series."
+{"_id": "honk-1"
+    , "folder": "photos/2017/07-July/2017-07-22/honk-1"
+    , "title": "JP Honk Band"
+    , "caption":""
     , "year": "2017"
-    , "category": "The Gentleman"
+    , "category": "Humans of JP"
     , "viewOnCategories": true
-    , "set":"The Gentleman"
+    , "set":"JP Honk Band"
     , "partOfSet": true
-    , "setCount": "8"
+    , "setCount": "4"
     , "story" : true
-    , "storyIntro" : "<p>Leaving the studio with my camera, the controlled space where I have been working almost exclusively for the past year, my daily commute becoming a vehicle for exploration - encountering a stranger.</p><p>The invisible strangers that we pass everyday, for years, decades, as our well worn route takes us past the same places, at the same time, to the same destination, every day.  Seldom paying attention, hardly noticing the changes, the faces, the life.  The things we turn our eyes away from. What would happen if you looked at one place every day, paused for just a few moments. </p>"
+    , "storyIntro" : "<p>No stories with this post, just a great time listening to the JP Honk Band at the Projections 2 show last night at the brewery. Great turnout as JP artists had their work projected on the brewery wall.</p>"
 },
 
-{"_id": "street-2"
-    , "folder": "photos/2017/06-June/2017-06-26/street-1"
-    , "title": "June 26, 2017"
-    , "caption":"I didn't intend to make this a series when I first photographed this gentleman last week. I thought perhaps he was taking a rest on the benches outside city hall. He was there again on Monday."
+{"_id": "honk-2"
+    , "folder": "photos/2017/07-July/2017-07-22/honk-2"
+    , "title": ""
+    , "caption":""
     , "year": "2017"
-    , "category": "The Gentleman"
+    , "category": "Humans of JP"
     , "viewOnCategories": false
-    , "set":"The Gentleman"
+    , "set":"JP Honk Band"
+    , "partOfSet": true
+},
+
+{"_id": "honk-3"
+    , "folder": "photos/2017/07-July/2017-07-22/honk-3"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "Humans of JP"
+    , "viewOnCategories": false
+    , "set":"JP Honk Band"
+    , "partOfSet": true
+},
+
+{"_id": "honk-4"
+    , "folder": "photos/2017/07-July/2017-07-22/honk-4"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "Humans of JP"
+    , "viewOnCategories": false
+    , "set":"JP Honk Band"
+    , "partOfSet": true
+},
+
+
+
+{"_id": "lali-1"
+    , "folder": "photos/2017/07-July/2017-07-07/lali-1"
+    , "title": "Lali"
+    , "caption":"A recent transplant from Los Angeles California. Lali's advice to her new JP neighbors - <em>'have no plans and have fun, go out and see what happens'</em> "
+    , "year": "2017"
+    , "category": "Humans of JP"
+    , "viewOnCategories": true
+    , "set":"Lali"
+    , "partOfSet": true
+    , "setCount": "2"
+    , "story" : true
+},
+
+{"_id": "lali-2"
+    , "folder": "photos/2017/07-July/2017-07-07/lali-2"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "Humans of JP"
+    , "viewOnCategories": false
+    , "set":"Lali"
     , "partOfSet": true
 },
 
