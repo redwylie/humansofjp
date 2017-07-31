@@ -332,10 +332,11 @@
 	"buffers":
 	[
 		{
-			"file": "story.php",
+			"file": "assets/styles/redwylie/scss/redwylie.scss",
 			"settings":
 			{
-				"buffer_size": 1087,
+				"buffer_size": 3093,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -389,10 +390,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/redwylie/Sites/humansofjp"
+		"/Users/redwylie/Sites/humansofjp",
+		"/Users/redwylie/Sites/humansofjp/assets",
+		"/Users/redwylie/Sites/humansofjp/assets/styles",
+		"/Users/redwylie/Sites/humansofjp/assets/styles/redwylie",
+		"/Users/redwylie/Sites/humansofjp/assets/styles/redwylie/scss"
 	],
 	"file_history":
 	[
+		"/Users/redwylie/Sites/humansofjp/story.php",
 		"/Users/redwylie/Sites/connectedstories/index.php",
 		"/Users/redwylie/Sites/connectedstories/images.json",
 		"/Users/redwylie/Sites/connectedstories/views/sets.html",
@@ -519,8 +525,7 @@
 		"/Users/redwylie/Drive/Work/LCS/PRP/src/main/resources/static/assets/custom/tinymce/skins/lightgray/skin.ie7.min.css",
 		"/Users/redwylie/Drive/Work/LCS/PRP/src/main/resources/static/assets/styles/mghlcs/scss/_navbar.scss",
 		"/Users/redwylie/Drive/Work/LCS/PRP/src/main/resources/static/apps/angularjs/app/searchWidget/searchWidgetApp.js",
-		"/Users/redwylie/Drive/Work/LCS/PRP/src/main/resources/static/apps/angularjs/l10n/en-US/common.lang.json",
-		"/Users/redwylie/Drive/Work/LCS/PRP/src/main/resources/static/assets/styles/mghlcs/scss/variables/_colors.scss"
+		"/Users/redwylie/Drive/Work/LCS/PRP/src/main/resources/static/apps/angularjs/l10n/en-US/common.lang.json"
 	],
 	"find":
 	{
@@ -577,6 +582,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"../../bootstrap",
 			"categoryTitle",
 			"setcount",
 			"background-color: black;",
@@ -703,8 +709,7 @@
 			"navbar-search",
 			"prp-keyword-search-widget",
 			"may be offered",
-			"1366px by 764px",
-			"cloase"
+			"1366px by 764px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -712,6 +717,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"../../../../../siteassets/styles/bootstrap",
 			"</h2>",
 			"\"",
 			"labelSearchCompensation",
@@ -760,19 +766,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "story.php",
+					"file": "assets/styles/redwylie/scss/redwylie.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1087,
+						"buffer_size": 3093,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								65,
+								80
 							]
 						],
 						"settings":
@@ -780,7 +786,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -843,7 +849,7 @@
 	"project": "humansofjp.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1273,7 +1279,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 215.0,
+	"side_bar_width": 372.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
