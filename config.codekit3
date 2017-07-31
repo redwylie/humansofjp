@@ -358,19 +358,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/assets\/styles\/humansofjp\/scss\/_breadcrumbs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/humansofjp\/scss\/_breadcrumbs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/styles\/humansofjp\/scss\/_cards.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -380,19 +367,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/styles\/humansofjp\/scss\/_cards.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/styles\/humansofjp\/scss\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/humansofjp\/scss\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -423,32 +397,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/humansofjp\/scss\/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/humansofjp\/scss\/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/styles\/humansofjp\/scss\/_navbar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/humansofjp\/scss\/_navbar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/styles\/humansofjp\/scss\/_photo.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -471,32 +419,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/styles\/humansofjp\/scss\/_responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/styles\/humansofjp\/scss\/_section.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/humansofjp\/scss\/_section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/styles\/humansofjp\/scss\/_sticky-footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/humansofjp\/scss\/_sticky-footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

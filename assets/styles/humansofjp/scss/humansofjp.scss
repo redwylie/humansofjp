@@ -1,5 +1,6 @@
 // Core variables and mixins
 @import "../../../../../siteassets/styles/bootstrap/scss/variables";
+@import "../../../../../siteassets/styles/redwylie/scss/variables/colors";
 @import "variables/colors";
 @import "variables/variables"; 
 @import "../../../../../siteassets/styles/bootstrap/scss/mixins";
@@ -51,13 +52,13 @@
 @import "../../../../../siteassets/styles/bootstrap/scss/utilities";
 @import "../../../../../siteassets/styles/bootstrap/scss/responsive-utilities";
 
-@import "sticky-footer";
-@import "mixins";
+@import "../../../../../siteassets/styles/redwylie/scss/sticky-footer";
+@import "../../../../../siteassets/styles/redwylie/scss/mixins";
 @import "cards";
 @import "jumbotron";
-@import "navbar";
-@import "footer";
+@import "../../../../../siteassets/styles/redwylie/scss/navbar";
+@import "../../../../../siteassets/styles/redwylie/scss/footer";
 @import "layout";
 @import "photo";
-@import "breadcrumbs";
-@import "section";
+@import "../../../../../siteassets/styles/redwylie/scss/breadcrumbs";
+@import "../../../../../siteassets/styles/redwylie/scss/section";
