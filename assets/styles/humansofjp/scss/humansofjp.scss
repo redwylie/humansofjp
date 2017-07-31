@@ -54,11 +54,12 @@
 
 @import "../../../../../siteassets/styles/redwylie/scss/sticky-footer";
 @import "../../../../../siteassets/styles/redwylie/scss/mixins";
-@import "cards";
-@import "jumbotron";
 @import "../../../../../siteassets/styles/redwylie/scss/navbar";
 @import "../../../../../siteassets/styles/redwylie/scss/footer";
-@import "layout";
-@import "photo";
 @import "../../../../../siteassets/styles/redwylie/scss/breadcrumbs";
 @import "../../../../../siteassets/styles/redwylie/scss/section";
+@import "../../../../../siteassets/styles/redwylie/scss/layout";
+@import "../../../../../siteassets/styles/redwylie/scss/photo";
+
+@import "cards";
+@import "jumbotron";
