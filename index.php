@@ -40,7 +40,7 @@ foreach ($obj->{'images'} as &$image) {
 
 //var_dump($photo);
 
-$template = $twig->loadTemplate('category.html');
+$template = $twig->loadTemplate('index.html');
 echo $template->render(array(
     'categoryTitle' => $category,
     'images' => $categoryImages,

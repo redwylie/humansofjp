@@ -38,9 +38,13 @@ foreach ($obj->{'images'} as &$image) {
     };
 }
 
-$urlCategory = 'set.php?set=' . $set .'&category=' . $category;
-$urlPrevious = 'set.php?set=' . $set .'&category=' . $category;
-$urlNext = 'set.php?set=' . $set .'&category=' . $category;
+// $urlCategory = 'set.php?set=' . $set .'&category=' . $category;
+// $urlPrevious = 'set.php?set=' . $set .'&category=' . $category;
+// $urlNext = 'set.php?set=' . $set .'&category=' . $category;
+
+$urlCategory = 'index.php';
+$urlPrevious = 'index.php';
+$urlNext = 'index.php';
 
 $urlSet = null;
 if (!is_null($set)) {

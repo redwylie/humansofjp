@@ -556,18 +556,6 @@
 		"oAP": "\/bin\/composer",
 		"oF": 0
 		},
-	"\/categories.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/categories.php",
-		"oF": 0
-		},
-	"\/category.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category.php",
-		"oF": 0
-		},
 	"\/composer.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1262,12 +1250,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/set.php",
-		"oF": 0
-		},
-	"\/sets.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/sets.php",
 		"oF": 0
 		},
 	"\/sftp-config.json": {
@@ -5122,18 +5104,6 @@
 		"oAP": "\/views\/about.html",
 		"oF": 0
 		},
-	"\/views\/categories.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/categories.html",
-		"oF": 0
-		},
-	"\/views\/category.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/category.html",
-		"oF": 0
-		},
 	"\/views\/common\/card.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5192,12 +5162,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/set.html",
-		"oF": 0
-		},
-	"\/views\/sets.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/sets.html",
 		"oF": 0
 		},
 	"\/views\/story.html": {

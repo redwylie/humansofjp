@@ -47,8 +47,6 @@
     , "partOfSet": true
 },
 
-
-
 {"_id": "lali-1"
     , "folder": "photos/2017/07-July/2017-07-07/lali-1"
     , "title": "Lali"
@@ -107,7 +105,7 @@
     , "folder": "photos/2014/07-July/2014-07-26/matt_and_meighan"
     , "youtube": "mVWynkdJtz4"
     , "title": "Matt and Meighan"
-    , "caption":"Matt and Meighan talk about changes, and Matt confesses to his childhood crime, stealing a big wheel and burying the evidence."
+    , "caption":"Matt and Meighan talk about changes, and Matt confesses to his childhood crime."
     , "year": "2014"
     , "category": "Humans of JP"
     , "viewOnCategories": true
@@ -137,7 +135,7 @@
     , "folder": "photos/2014/07-July/2014-07-13/angel"
     , "youtube": "sGOUqTa-r98"
     , "title": "Angel"
-    , "caption":"Angel, an Argentinian ex-pat picked the four World Cup finalists about three weeks ago when we chatted during the group stage."
+    , "caption":"Angel, an Argentinian ex-pat picked the four World Cup finalists."
     , "year": "2014"
     , "category": "Humans of JP"
     , "viewOnCategories": true
@@ -168,7 +166,7 @@
     , "folder": "photos/2014/06-June/2014-06-25/alden_and_martin"
     , "youtube": "wv8sDKObcLA"
     , "title": "Alden and Martin"
-    , "caption":"Alden and Martin are looking to move to JP, and maybe a few gigs for their metal band https://www.facebook.com/AVERSEDmetal"
+    , "caption":"Alden and Martin are looking to move to JP, and maybe a few gigs for their metal band AVERSEDmetal"
     , "year": "2014"
     , "category": "Humans of JP"
     , "viewOnCategories": true
@@ -328,7 +326,7 @@
     , "folder": "photos/2014/06-June/2014-06-10/elijah_ryan_ann"
     , "youtube": "-ot2bSOOFVg"
     , "title": "Elijah, Ryan and Ann"
-    , "caption":"Elijah, Ryan and Ann talk about raising money for charities thru http://www.ourchildrenmakingchange.org/."
+    , "caption":"Elijah, Ryan and Ann talk about raising money for charities thru Our Children Making Change."
     , "year": "2014"
     , "category": "Humans of JP"
     , "viewOnCategories": true
@@ -368,7 +366,7 @@
     , "folder": "photos/2014/06-June/2014-06-08/rowen_erica_max"
     , "youtube": "eYyHAzcfmhw"
     , "title": "Rowen, Erica and Max"
-    , "caption":"Talk about working as a counselor at summer camp , a trip to Peru and the importance of friends."
+    , "caption":"Talk about working as a counselor at summer camp, a trip to Peru and the importance of friends."
     , "year": "2014"
     , "category": "Humans of JP"
     , "viewOnCategories": true
@@ -438,7 +436,7 @@
     , "folder": "photos/2014/06-June/2014-06-03/mike_and_orion"
     , "youtube": "ghnWlU3cMrE"
     , "title": "Mike and Orion"
-    , "caption":"Mike and Orion talk about being music therapists and share a kind word about each other - Mikes' blog is http://mikesimonellimusic.blogspot.com/."
+    , "caption":"Mike and Orion talk about being music therapists and share a kind word about each other - Mikes' blog is mikesimonellimusic.blogspot.com."
     , "year": "2014"
     , "category": "Humans of JP"
     , "viewOnCategories": true

@@ -4,31 +4,52 @@
 	{% include 'common/meta.html' %}
 	{% include 'common/styles.html' %}
 </head>
-<body>
-
+<body class="page-index">
+	<?php include_once("analyticstracking.php") ?>
 	{% include 'common/nav.html' with {'foo': 'bar'} %}
 
-	<div class="jumbotron">
-		<div class="container">
-			<h1>Me fotos :)</h1>
+	    <div class="jumbotron jumbotron-sets">
+		<div class="container text-center">
+			<h1>Jamaica Plain &bull; MA &bull; 02130</h1>
  		</div><!-- .container -->
 	</div><!-- .jumbotron -->
 
-	<div class="container-fluid">
+	<div class="container">
 
-		<div class="container-fluid">
-			<div class="row-fluid">
+		<div class="row">
 
-				{% for image in images %}
-					{% if image.viewOnHome %}
-						{% include 'common/card.html' with {'view':'photo'} %}
+			{% for image in images %}
+
+				<div class="col-sm-4">
+					{% if image.story == null %}
+						<a href="photo.php?photo={{image._id}}" class="link">
+					{% else %}
+						<a href="story.php?set={{image.set}}&category={{image.category}}" class="link">
 					{% endif %}
-				{% endfor %}
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-
+						<div class="panel panel-default card" data-content="{{image.title}}">
+							<div class="panel-heading" style="background-image: url('{{image.folder}}/thumbnail.jpg')" ></div>
+							<div class="panel-body">
+									<h1>{{ image.title }}</h1>
+									{% if image.storyIntro != null %}
+										<p class="visible-xs visible-md">{{ image.storyIntro|length > 110 ? image.storyIntro|striptags|slice(0, 110) ~ '...' : image.storyIntro|striptags  }}</p>
+										<p class="visible-sm">{{ image.storyIntro|length > 72 ? image.storyIntro|striptags|slice(0, 72) ~ '...' : image.storyIntro|striptags  }}</p>
+										<p class="visible-lg">{{ image.storyIntro|length > 140 ? image.storyIntro|striptags|slice(0, 140) ~ '...' : image.storyIntro|striptags  }}</p>
+									{% else %}
+										<p class="visible-xs visible-md">{{ image.caption|length > 110 ? image.caption|striptags|slice(0, 110) ~ '...' : image.caption|striptags  }}</p>
+										<p class="visible-sm">{{ image.caption|length > 72 ? image.caption|striptags|slice(0, 72) ~ '...' : image.caption|striptags  }} </p>
+										<p class="visible-lg">{{ image.caption|length > 140 ? image.caption|striptags|slice(0, 140) ~ '...' : image.caption|striptags  }}</p>
+									{% endif %}
+							</div><!-- .panel-body -->
+						</div><!-- .card -->
+					</a>
+				</div><!-- .col -->
+			
+			{% endfor %}
+			
+		</div><!-- .row -->
 	</div><!-- .container -->
+
+	<br/>
 
 	{% include 'common/footer.html' %}
 	{% include 'common/scripts.html' %}
