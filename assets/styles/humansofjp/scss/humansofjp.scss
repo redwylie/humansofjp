@@ -1,65 +1,7 @@
-// Core variables and mixins
-@import "../../../../../siteassets/styles/bootstrap/scss/variables";
-@import "../../../../../siteassets/styles/redwylie/scss/variables/colors";
+@import "../../../../../siteassets/styles/redwylie/scss/global";
+
 @import "variables/colors";
-@import "variables/variables"; 
-@import "../../../../../siteassets/styles/bootstrap/scss/mixins";
-
-// Reset and dependencies
-@import "../../../../../siteassets/styles/bootstrap/scss/normalize";
-@import "../../../../../siteassets/styles/bootstrap/scss/print";
-//@import "../../../../../siteassets/styles/bootstrap/scss/glyphicons";
-
-// Core CSS
-@import "../../../../../siteassets/styles/bootstrap/scss/scaffolding";
-@import "../../../../../siteassets/styles/bootstrap/scss/type";
-//@import "../../../../../siteassets/styles/bootstrap/scss/code";
-@import "../../../../../siteassets/styles/bootstrap/scss/grid";
-//@import "../../../../../siteassets/styles/bootstrap/scss/tables";
-@import "../../../../../siteassets/styles/bootstrap/scss/forms";
-@import "../../../../../siteassets/styles/bootstrap/scss/buttons";
-
-// Components
-@import "../../../../../siteassets/styles/bootstrap/scss/component-animations";
-//@import "../../../../../siteassets/styles/bootstrap/scss/dropdowns";
-//@import "../../../../../siteassets/styles/bootstrap/scss/button-groups";
-//@import "../../../../../siteassets/styles/bootstrap/scss/input-groups";
-@import "../../../../../siteassets/styles/bootstrap/scss/navs";
-@import "../../../../../siteassets/styles/bootstrap/scss/navbar";
-@import "../../../../../siteassets/styles/bootstrap/scss/breadcrumbs";
-//@import "../../../../../siteassets/styles/bootstrap/scss/pagination";
-//@import "../../../../../siteassets/styles/bootstrap/scss/pager";
-//@import "../../../../../siteassets/styles/bootstrap/scss/labels";
-//@import "../../../../../siteassets/styles/bootstrap/scss/badges";
-@import "../../../../../siteassets/styles/bootstrap/scss/jumbotron";
-//@import "../../../../../siteassets/styles/bootstrap/scss/thumbnails";
-//@import "../../../../../siteassets/styles/bootstrap/scss/alerts";
-//@import "../../../../../siteassets/styles/bootstrap/scss/progress-bars";
-//@import "../../../../../siteassets/styles/bootstrap/scss/media";
-//@import "../../../../../siteassets/styles/bootstrap/scss/list-group";
-@import "../../../../../siteassets/styles/bootstrap/scss/panels";
-@import "../../../../../siteassets/styles/bootstrap/scss/responsive-embed";
-@import "../../../../../siteassets/styles/bootstrap/scss/wells";
-@import "../../../../../siteassets/styles/bootstrap/scss/close";
-
-// Components w/ JavaScript
-@import "../../../../../siteassets/styles/bootstrap/scss/modals";
-// @import "../../../../../siteassets/styles/bootstrap/scss/tooltip";
-// @import "../../../../../siteassets/styles/bootstrap/scss/popovers";
-// @import "../../../../../siteassets/styles/bootstrap/scss/carousel";
-
-// Utility classes
-@import "../../../../../siteassets/styles/bootstrap/scss/utilities";
-@import "../../../../../siteassets/styles/bootstrap/scss/responsive-utilities";
-
-@import "../../../../../siteassets/styles/redwylie/scss/sticky-footer";
-@import "../../../../../siteassets/styles/redwylie/scss/mixins";
-@import "../../../../../siteassets/styles/redwylie/scss/navbar";
-@import "../../../../../siteassets/styles/redwylie/scss/footer";
-@import "../../../../../siteassets/styles/redwylie/scss/breadcrumbs";
-@import "../../../../../siteassets/styles/redwylie/scss/section";
-@import "../../../../../siteassets/styles/redwylie/scss/layout";
-@import "../../../../../siteassets/styles/redwylie/scss/photo";
+@import "variables/variables";
 
 @import "cards";
 @import "jumbotron";
