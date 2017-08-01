@@ -8,7 +8,11 @@
 				"composer.json",
 				"composer.lock",
 				"installer",
-				".gitignore"
+				".gitignore",
+				"favicon.ico",
+				"config.codekit3",
+				"analyticstracking.php",
+				"sftp-config.json"
 			],
 			"folder_exclude_patterns":
 			[
