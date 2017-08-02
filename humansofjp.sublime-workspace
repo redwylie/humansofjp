@@ -338,14 +338,6 @@
 				"buffer_size": 190703,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "sftp-config.json",
-			"settings":
-			{
-				"buffer_size": 1358,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -399,6 +391,8 @@
 	[
 		"/Users/redwylie/Sites/humansofjp",
 		"/Users/redwylie/Sites/humansofjp/assets",
+		"/Users/redwylie/Sites/humansofjp/assets/images",
+		"/Users/redwylie/Sites/humansofjp/assets/images/logos",
 		"/Users/redwylie/Sites/humansofjp/photos",
 		"/Users/redwylie/Sites/humansofjp/views"
 	],
@@ -803,37 +797,10 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "sftp-config.json",
+					"file": "assets/images/logos/humansofjp-logo-orange-white-cmyk.png",
 					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
-					"type": "text"
+					"type": "image"
 				}
 			]
 		},
