@@ -335,7 +335,24 @@
 			"file": "config.codekit3",
 			"settings":
 			{
-				"buffer_size": 190703,
+				"buffer_size": 190161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/common/footer.html",
+			"settings":
+			{
+				"buffer_size": 1559,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "images.json",
+			"settings":
+			{
+				"buffer_size": 21235,
 				"line_ending": "Unix"
 			}
 		}
@@ -394,7 +411,8 @@
 		"/Users/redwylie/Sites/humansofjp/assets/images",
 		"/Users/redwylie/Sites/humansofjp/assets/images/logos",
 		"/Users/redwylie/Sites/humansofjp/photos",
-		"/Users/redwylie/Sites/humansofjp/views"
+		"/Users/redwylie/Sites/humansofjp/views",
+		"/Users/redwylie/Sites/humansofjp/views/common"
 	],
 	"file_history":
 	[
@@ -761,7 +779,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -770,7 +788,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 190703,
+						"buffer_size": 190161,
 						"regions":
 						{
 						},
@@ -793,14 +811,72 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/common/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1559,
+								1559
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"file": "assets/images/logos/humansofjp-logo-orange-white-cmyk.png",
+					"buffer": 2,
+					"file": "images.json",
 					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 21235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
-					"type": "image"
+					"type": "text"
 				}
 			]
 		},

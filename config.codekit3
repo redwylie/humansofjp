@@ -47,22 +47,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/logos\/humansofjp-logo-orange-black-cmyk.png": {
-		"ft": 32768,
-		"iS": 5260,
-		"oA": 0,
-		"oAP": "\/assets\/images\/logos\/humansofjp-logo-orange-black-cmyk.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/images\/logos\/humansofjp-logo-orange-white-cmyk.png": {
-		"ft": 32768,
-		"iS": 5154,
-		"oA": 0,
-		"oAP": "\/assets\/images\/logos\/humansofjp-logo-orange-white-cmyk.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/scripts\/humansofjp\/common-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -307,12 +291,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/humansofjp.sublime-project",
-		"oF": 0
-		},
-	"\/humansofjp.sublime-workspace": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/humansofjp.sublime-workspace",
 		"oF": 0
 		},
 	"\/images.json": {
