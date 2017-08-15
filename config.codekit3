@@ -33,6 +33,156 @@
 		"oAP": "\/assets\/images\/favicons\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/assets\/images\/favicons\/favicon-114.png": {
+		"ft": 32768,
+		"iS": 6944,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-120.png": {
+		"ft": 32768,
+		"iS": 7342,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-144.png": {
+		"ft": 32768,
+		"iS": 9229,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-150.png": {
+		"ft": 32768,
+		"iS": 9726,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-152.png": {
+		"ft": 32768,
+		"iS": 9743,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-16.png": {
+		"ft": 32768,
+		"iS": 1298,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-160.png": {
+		"ft": 32768,
+		"iS": 10369,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-160.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-180.png": {
+		"ft": 32768,
+		"iS": 11683,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-192.png": {
+		"ft": 32768,
+		"iS": 12598,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-310.png": {
+		"ft": 32768,
+		"iS": 21406,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-310.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-32.png": {
+		"ft": 32768,
+		"iS": 1774,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-57.png": {
+		"ft": 32768,
+		"iS": 3238,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-60.png": {
+		"ft": 32768,
+		"iS": 3429,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-64.png": {
+		"ft": 32768,
+		"iS": 3677,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-64.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-70.png": {
+		"ft": 32768,
+		"iS": 4033,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-70.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-72.png": {
+		"ft": 32768,
+		"iS": 4101,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-76.png": {
+		"ft": 32768,
+		"iS": 4376,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon-96.png": {
+		"ft": 32768,
+		"iS": 5615,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/favicons\/favicon.ico",
+		"oF": 0
+		},
 	"\/assets\/images\/favicons\/faviconit-instructions.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -44,6 +194,22 @@
 		"iS": 14413,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logos\/connected-stories-flame-blue-cmyk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/logos\/humansofjp-logo-orange-black-cmyk.png": {
+		"ft": 32768,
+		"iS": 19327,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logos\/humansofjp-logo-orange-black-cmyk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/logos\/humansofjp-logo-orange-white-cmyk.png": {
+		"ft": 32768,
+		"iS": 18852,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logos\/humansofjp-logo-orange-white-cmyk.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -287,10 +453,22 @@
 		"oAP": "\/composer.lock",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/humansofjp.sublime-project": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/humansofjp.sublime-project",
+		"oF": 0
+		},
+	"\/humansofjp.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/humansofjp.sublime-workspace",
 		"oF": 0
 		},
 	"\/images.json": {
